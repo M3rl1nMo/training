@@ -1,3 +1,11 @@
+/*
+1,数字判断：原来的判断函数中使用的是严格大于或小于，这致使后面的数字判断层面在输入2～8以外的数字时会输出INVALID
+2,长度判断：在length_ok函数中将>=写为了<=，这导致输入长度小于10长度的密码反而会输出true的结果
+3,范围边界：digit_ok中判断被设置为了0到9,而不是'0'到'9'('0'到'9'的ascii编码是48到57)，这导致输入0～9都会导致输出INVALID
+更改后的代码:
+输入Li Ming 12345678Aa, Li Ming 123456Aa, Li Ming 12345678AA, Li Ming 12345678aa, Li Ming 12345678LiAa, Li Ming 12345678MingAa
+输出VALID, INVALID, INVALID, INVALID, INVALID,INVALID
+*/
 #include <iostream>
 #include <string>
 
