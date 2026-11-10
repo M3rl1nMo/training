@@ -1,0 +1,9 @@
+{
+  "package_name": "rm_msgs",
+  "non_idl_tuples": [
+    "/home/merlin/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs:msg/GimbalTarget.msg",
+    "/home/merlin/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs:msg/ChassisCmd.msg",
+    "/home/merlin/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs:msg/WheelLegCmd.msg",
+    "/home/merlin/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs:srv/SetGimbalAngle.srv"
+  ]
+}

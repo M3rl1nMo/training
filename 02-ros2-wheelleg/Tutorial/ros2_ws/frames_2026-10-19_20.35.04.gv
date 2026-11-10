@@ -1,0 +1,8 @@
+digraph G {
+"base_link" -> "gimbal_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"gimbal_link" -> "camera_link"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1792413304.149776\nOldest transform: 1792413299.149658\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1792413304.1654744"[ shape=plaintext ] ;
+}->"base_link";
+}

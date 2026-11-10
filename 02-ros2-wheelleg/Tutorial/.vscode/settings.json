@@ -1,0 +1,4 @@
+{
+    "ros.distro": "humble",
+    "cmake.sourceDirectory": "/home/merlin/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs"
+}
